@@ -1,10 +1,9 @@
 import Link from "next/link";
 
 const socialLinks = [
-  { label: "Behance", href: "#" },   // Replace with your real URLs
-  { label: "LinkedIn", href: "#" },
-  { label: "GitHub", href: "#" },
-  { label: "Email", href: "mailto:your@email.com" },
+  { label: "Behance", href: "https://www.behance.net/kunjkandesign" },
+  { label: "LinkedIn", href: "https://www.linkedin.com/in/kunj-vania-9b522119b/" },
+  { label: "Email", href: "mailto:kunj.vania.design@gmail.com" },
 ];
 
 export default function Footer() {

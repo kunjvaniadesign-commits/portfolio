@@ -7,10 +7,9 @@ export const metadata: Metadata = {
 };
 
 const links = [
-  { label: "Email", value: "your@email.com", href: "mailto:your@email.com" },
-  { label: "Behance", value: "behance.net/kunjvania", href: "#" },
-  { label: "LinkedIn", value: "linkedin.com/in/kunjvania", href: "#" },
-  { label: "GitHub", value: "github.com/kunjvania", href: "#" },
+  { label: "Email", value: "kunj.vania.design@gmail.com", href: "mailto:kunj.vania.design@gmail.com" },
+  { label: "Behance", value: "behance.net/kunjkandesign", href: "https://www.behance.net/kunjkandesign" },
+  { label: "LinkedIn", value: "linkedin.com/in/kunj-vania", href: "https://www.linkedin.com/in/kunj-vania-9b522119b/" },
 ];
 
 export default function ContactPage() {
@@ -60,11 +59,11 @@ export default function ContactPage() {
       <AnimatedSection delay={0.15}>
         <section className="max-w-6xl mx-auto px-6 pb-24">
           <a
-            href="mailto:your@email.com"
+            href="mailto:kunj.vania.design@gmail.com"
             className="group inline-block"
           >
             <p className="font-display text-3xl md:text-4xl lg:text-5xl font-medium hover:opacity-50 transition-opacity">
-              your@email.com →
+              kunj.vania.design@gmail.com →
             </p>
           </a>
         </section>
